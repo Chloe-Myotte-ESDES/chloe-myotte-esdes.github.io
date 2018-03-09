@@ -37,8 +37,8 @@ Cible : recruteur
            > Musique => ...
            > Sport => ... 
            
- ### sixième section
- - pavé de contact dans un autre page 
+ ### Sixième section
+ - Pavé de contact dans un autre page 
 
 
 
