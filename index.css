@@ -1,8 +1,40 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
 
 *{
     font-family: 'Dancing Script', cursive;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom:0;
+    list-style-type: none;
+    font-size: 10%;
+    margin: 0%;
+    padding : 10px 16px;
+    overflow: hidden;
+    background-color: white;
+    color: white;
+    justify-content: space-around;
+    opacity: 0.7;
+}
+
+#menu button {
+    border: none;
+    font-size: 13px;
+    font-family:'Tajawal', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 html, body {
@@ -21,6 +53,7 @@ header {
     align-items: center;
     height: 90%;
     width: 100%;
+    position: relative;
 }
 
 header h1 {
@@ -56,11 +89,31 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
+h3 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
 p {
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin:30px 30px;
+    flex-direction: column;
+    background-color:  rgba(249, 251, 253, 0.5);
+    width: 300px;
+    height: 300px;
+    padding: 2%;
+    align-items: center;
+    border-width: 4px;
+    border-color: rgb(253, 253, 253);
+    border-style: solid;
 }
- {
+
+article {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -92,12 +145,6 @@ article:hover {
 }
 
 #Article4 {background-image:url("img/cupcake.jpg");
-}
-
-#Article5 {background-image:url("img/fraise.jpg");
-}
-
-#Article6 {background-image:url("img/cream.jpg");
 }
 
 footer {
