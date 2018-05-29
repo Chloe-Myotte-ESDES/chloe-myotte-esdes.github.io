@@ -43,20 +43,6 @@ html, body {
     margin: 0;
 }
 
-/*
-header {
-    background-image:url("../img/blanc.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-}
-*/
 section {
     background-color: rgb(248, 241, 241);
     margin: 0;
@@ -66,8 +52,8 @@ section {
 }
 
 footer {
-    background-image: url("../img/blacks.jpg");
-    color: rgb(59, 57, 59);
+    background-image: url("../img/noir.jpg");
+    color:white;
     font-size: 32px;
     padding: 5px 10px;
     transition: all 0,6s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -79,6 +65,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 3%;
+    height: 6%;
     width: 100%;
 }
+
+h4 {
+    margin: 0%;
+    font-size: 70%;
+    color: white;
+}
+
