@@ -43,22 +43,38 @@ header button {
     font-family:'Tajawal', sans-serif;
 }
 
-img {
-    margin-bottom: 5%;
+#profil {
+    margin-bottom: 3%;
     border-radius: 50%;
-    width: 230px;
-    height: 230px;
+    width: 260px;
+    height: 260px;
     border-width: 2px;
     border-color: rgb(255, 255, 255);
     border-style: dotted;
 }
 
-#fraise {
-    margin-bottom: 5%;
-    margin-left:8%;
+#social-links {
+    position: absolute;
+    top: 20px; 
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;  
+    margin: 2px;
+}
+
+.liens{
+    width: 40px;
+    margin: 5%;
+}
+
+#santorin {
+    margin-bottom: 25px;
+    margin-left: 8%;
     border-radius: 50%;
-    width: 230px;
-    height: 230px;
+    width: 260px;
+    height: 260px;
     border-width: 2px;
     border-color: rgb(255, 255, 255);
     border-style: dotted;
@@ -75,7 +91,7 @@ img {
     align-items: center;
     height: 100%;
     width: 100%;
-    position: relative;
+    position: center;
 }
 
 #me h1 {
@@ -87,7 +103,7 @@ img {
 }
 
 h5{
-    font-size: 15px;
+    font-size: 17px;
     font-family:'Tajawal', sans-serif, bold;
 }
 
@@ -107,7 +123,7 @@ section p {
 }
 
 h2 {
-    margin-top: 2%;
+    margin: 2%;
     font-size: 30px;
     cursor: pointer;
     font-family: 'Satisfy', cursive;
@@ -116,7 +132,6 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2%;
 }
 
 h3 {
@@ -129,6 +144,8 @@ h3 {
 #introduction{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #introduction article {
@@ -137,10 +154,53 @@ h3 {
     text-align: justify;
 }
 
-#intro{
-    width: 20%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/******
+* ENGIE
+*******/
+
+#engie1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    background-color: rgb(248, 241, 241);
+    text-align: justify;
 }
+
+#engie2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    text-align: justify;
+    font-size: 21px;
+    font-weight: 1200;
+    font-family:'Tajawal', sans-serif;
+}
+
+#musique {
+    width: 50%;
+    height: 100%;
+}
+
+#voyage {
+    width: 50%;
+    height: 100%;
+}
+
+#engie {
+    margin: 8%;
+}
+
+h6 {
+    font-size: 17px;
+    font-weight: 1200;
+    font-family:'Tajawal', sans-serif;
+    margin : 8%;
+}
+
 
 /******
 * ARTICLES
@@ -188,17 +248,13 @@ article:hover {
     transition: all 0,6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-#Article1 {background-image:url("img/macaron.jpg");}
+#Article1 {background-image:url("img/basket.png");}
 
-#Article2 {background-image:url("img/cup.jpg");}
+#Article2 {background-image:url("img/music.jpg");}
 
-#Article3 {background-image:url("img/boisson.jpg");}
+#Article3 {background-image:url("img/voyage.png");}
 
 #Article4 {background-image:url("img/cupcake.jpg");}
-
-#Article5 {background-image:url("img/fraise.jpg");}
-
-#Article6 {background-image:url("img/cream.jpg");}
 
 footer {
     background-color: lavenderblush;
