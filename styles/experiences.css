@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Damion|Dawning+of+a+New+Day|Pacifico|Satisfy');
 
 *{
     font-family: 'Dancing Script', cursive;
@@ -10,10 +12,6 @@ html, body {
 }
 
 section {
-    background-image: url(../img/music.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,10 +21,7 @@ section {
 }
 
 article {
-    background-color: white;
-    opacity: 0.8;
     width: 50%;
-    margin-top: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,8 +38,7 @@ h1 {
 
 p {
     color: black;
-    width: 90%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     text-align: start;
@@ -59,6 +53,20 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.cmpt {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-top : 3%;
+}
+
+div {
+    margin: 1%;
+}
+
+
 
 /******
 * ENGIE
@@ -69,9 +77,13 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    height: 70%;
     background-color: rgb(248, 241, 241);
     text-align: justify;
+}
+
+.jauge {
+    width: 35%;
 }
 
 #engie2 {
@@ -79,23 +91,15 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    height: 70%;
     text-align: justify;
     font-size: 21px;
     font-weight: 1200;
     font-family:'Tajawal', sans-serif;
 }
 
-#engie3s {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
-    text-align: justify;
-    font-size: 21px;
-    font-weight: 1200;
-    font-family:'Tajawal', sans-serif;
+#engie2 p{
+    width: 85%;
 }
 
 #musique {
@@ -113,8 +117,14 @@ h2 {
 }
 
 h6 {
-    font-size: 17px;
-    font-weight: 1200;
-    font-family:'Tajawal', sans-serif;
-    margin : 8%;
+    margin: 2%;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
+

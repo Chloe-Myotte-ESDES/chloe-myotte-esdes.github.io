@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Damion|Dawning+of+a+New+Day|Pacifico|Satisfy');
 *{
     font-family: 'Dancing Script', cursive;
 }
@@ -9,18 +10,22 @@ html, body {
     margin: 0;
 }
 
-section {
+#section2 {
+    background-image:url("../img/competences.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    background-color: pink;
+    position: center;
 }
 
 h1 {
-    margin-top: 3%; 
+    margin:10%;
     color: black;
     font-size: 30px;
     text-align: start;
@@ -28,6 +33,23 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 50px;
+    font-family: 'Satisfy',cursive;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h6 {
+    font-weight:normal;
+    font-size:17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    color:#aaaaaa;
+    margin-bottom:15px;
+    border-bottom:1px solid #eeeeee;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    
 }
 
 p {
@@ -45,25 +67,128 @@ p {
     align-items: center;
 }
 
-img {
-    margin: 5%;
-    width: 30%;
-    height: 10%;
-    border: solid 2px white;
-}
-
 a {
     font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #section1 {
-    background-color: white;
-    opacity: 0,8;
+    background-color: rgb(248, 241, 241);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 80%;
+    height: 50%;
+    width: 100%;
+}
+
+contact {
+    width: 10px;
+}
+
+.contacts{
+    width: 10px;
+}
+
+/******
+* FORMULAIRE
+*******/
+
+.clear{
+    clear:both;
+}
+
+#main-container{
+    width:400px;
+    margin:30px auto;
+}
+
+#form-container{
+    background-color:#f5f5f5;
+    padding:15px;
+
+    /* rounded corners */
+    -moz-border-radius:12px;
+    -khtml-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius:12px;
+}
+
+td{
+    /* prevent multiline text */
+    white-space:nowrap;
+}
+
+a, a:visited {
+    color:#00BBFF;
+    text-decoration:none;
+    outline:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+h4{
+    color:#500303;
+    font-size:22px;
+    font-weight:normal;
+    margin-bottom:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-weight:normal;
+    font-size:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    color:#aaaaaa;
+    margin-bottom:15px;
+    border-bottom:1px solid #eeeeee;
+    margin-bottom:15px;
+    padding-bottom:10px;
+}
+
+label{
+    text-transform:uppercase;
+    font-size:10px;
+    font-family:Tahoma,Arial,Sans-serif;
+}
+
+textarea{
+    color:#404040;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+td > button{
+    /* A special CSS selector that targets non-IE6 browsers */
+    text-indent:8px;
+}
+
+.error{
+    /* this class is used if JS is disabled */
+    background-color:#AB0000;
+    color:white;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:10px;
+    padding:10px;
+    text-transform:uppercase;
+    width:300px;
+}
+
+#loading{
+    /* the loading gif is hidden on page load */
+    position:relative;
+    bottom:9px;
+    visibility:hidden;
+}
+
+.tutorial-info{
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:10px;
+
 }

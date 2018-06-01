@@ -122,6 +122,17 @@ section p {
     font-weight: normal;
 }
 
+#interests {
+    background-color:rgb(248, 241, 241);
+    margin: 0%;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+}
+
+
+
 h2 {
     margin: 2%;
     font-size: 30px;
