@@ -86,6 +86,18 @@ h2 {
     font-family:'Tajawal', sans-serif;
 }
 
+#engie3s {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    text-align: justify;
+    font-size: 21px;
+    font-weight: 1200;
+    font-family:'Tajawal', sans-serif;
+}
+
 #musique {
     width: 50%;
     height: 100%;
