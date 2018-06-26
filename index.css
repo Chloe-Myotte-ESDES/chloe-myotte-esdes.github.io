@@ -325,6 +325,15 @@ footer h2:hover {
     #articles {
         flex-direction:column;
     }
+
+    #engie1 {
+        flex-direction: column;
+        height: 50%;
+    }
+    
+    #engie2 {
+        flex-direction: column;
+    }
 }
     
 /* TABLET */
