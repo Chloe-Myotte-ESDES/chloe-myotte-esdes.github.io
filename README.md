@@ -22,8 +22,7 @@ Cible : recruteur
  
 ### Troisième section 
  - Mon expériences chez OXYGENE : Une image à droite. A gauche un titre et un texte descriptif.
-
-                          
+             
 ### Quatrième section 
  - Centres d'intérêt en forme de carré avec des images et des effets lorsqu'on passe sur le carré 
            > Sport
@@ -33,7 +32,6 @@ Cible : recruteur
            
 ## Deuxième page 
 - 3 petits articles pour en savoir plus sur mon parcours > A détailler
-
 
 ## Troisième page
 
@@ -45,10 +43,10 @@ Cible : recruteur
                           > Allemand 
                           > Anglais 
                           > Espagnol
+                          
 ### Deuxième section   
 - Une image à droite. A gauche un descriptif de ma formation. 
          
-
 ## Quatrième page 
 - Portfolio de mes créations sur la suite Adobe. 
 
