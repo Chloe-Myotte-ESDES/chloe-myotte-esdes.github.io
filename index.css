@@ -310,6 +310,10 @@ footer h2:hover {
         flex-direction: column;
     }
     
+    header a {
+        font-size: 10px;
+    }
+
     #articles a {
         width: 80%;
         }
@@ -367,9 +371,6 @@ footer h2:hover {
     
 /* TABLET */
 @media screen and (min-width : 600px) and (max-width : 900px){
-#articles a {
-    width: 40%;
-    }
 
     section {
         flex-wrap: nowrap;
