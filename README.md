@@ -25,10 +25,10 @@ Cible : recruteur
              
 ### Quatrième section 
  - Centres d'intérêt en forme de carré avec des images et des effets lorsqu'on passe sur le carré 
- > Sport
- > Musique
- > Voyage
- > Cuisine
+> Sport
+> Musique
+> Voyage
+> Cuisine
            
 ## Deuxième page 
 - 3 petits articles pour en savoir plus sur mon parcours > A détailler
@@ -37,12 +37,12 @@ Cible : recruteur
 
 ### Première section
 - Une image à gauche. A droite mes compétences sur une colonne avec des barres de niveau. 
-  > Adobe suite
-  > Imovie
-  > Pack office
-  > Allemand
-  > Anglais
-  > Espagnol
+> Adobe suite
+> Imovie
+> Pack office
+> Allemand
+> Anglais
+> Espagnol
                           
 ### Deuxième section   
 - Une image à droite. A gauche un descriptif de ma formation. 
@@ -52,6 +52,3 @@ Cible : recruteur
 
 ## Cinquième page 
  - Pavé de contact 
-
-
-
