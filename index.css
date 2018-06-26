@@ -33,7 +33,6 @@ header {
     padding : 15px 20px;
     overflow: hidden;
     background-color: white;
-    color: white;
     opacity: 0.7;
 }
 
@@ -90,8 +89,7 @@ header button {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
-    position: center;
+    width: 100%; 
 }
 
 #me h1 {
@@ -187,7 +185,6 @@ h3 {
     height: 50%;
     text-align: justify;
     font-size: 21px;
-    font-weight: 1200;
     font-family:'Tajawal', sans-serif;
 }
 
@@ -207,7 +204,6 @@ h3 {
 
 h6 {
     font-size: 17px;
-    font-weight: 1200;
     font-family:'Tajawal', sans-serif;
     margin : 8%;
 }
@@ -317,6 +313,29 @@ footer h2:hover {
     #articles a {
         width: 80%;
         }
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#introduction article {
+    flex: 1;
+    margin: 0% 5% 5% 5%;
+    text-align: justify;
+}
+
+#articles {
+    background-color: rgb(248, 241, 241);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100%;
 }
     
 /* TABLET */
