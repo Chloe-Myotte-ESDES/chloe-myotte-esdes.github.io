@@ -172,17 +172,15 @@ h3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 50%;
     background-color: rgb(248, 241, 241);
     text-align: justify;
 }
 
 #engie2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    height: 50%;
     text-align: justify;
     font-size: 21px;
     font-family:'Tajawal', sans-serif;
@@ -199,13 +197,15 @@ h3 {
 }
 
 .engie {
-    margin: 8%;
+    margin-right: 7%;
+    margin-left: 7%;
 }
 
 h6 {
     font-size: 17px;
     font-family:'Tajawal', sans-serif;
-    margin : 8%;
+    margin : 0;
+    margin-left: 7%;
 }
 
 
@@ -255,13 +255,13 @@ article:hover {
     transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-#Article1 {background-image:url("img/basket.png");}
+#article1 {background-image:url("img/basket.png");}
 
-#Article2 {background-image:url("img/music.jpg");}
+#article2 {background-image:url("img/music.jpg");}
 
-#Article3 {background-image:url("img/voyage.png");}
+#article3 {background-image:url("img/voyage.png");}
 
-#Article4 {background-image:url("img/cupcake.jpg");}
+#article4 {background-image:url("img/cupcake.jpg");}
 
 footer {
     background-color: lavenderblush;
@@ -319,7 +319,7 @@ footer h2:hover {
     }
 
     #introduction article {
-        margin: 8%;
+        margin-left: 10%;
     }
 
     #articles {
@@ -328,12 +328,41 @@ footer h2:hover {
 
     #engie1 {
         flex-direction: column;
-        height: 50%;
     }
     
     #engie2 {
         flex-direction: column;
     }
+
+    #enfant {
+        width: 100%;
+    }
+
+    #energy {
+        width: 100%;
+    }
+
+    #me h1 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    #profil {
+        width: 200px;
+        height: 200px;
+    }
+
+    h6 {
+        margin-top: 7%;
+    }
+
+    .engie {
+        margin:7%;
+    }
+
 }
     
 /* TABLET */
@@ -341,7 +370,65 @@ footer h2:hover {
 #articles a {
     width: 40%;
     }
-}
+
+    section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    
+    #articles a {
+        width: 80%;
+        }
+    
+        #introduction{
+            flex-direction: column;
+        }
+    
+        #introduction article {
+            margin-left: 10%;
+        }
+    
+        #articles {
+            flex-direction:column;
+        }
+    
+        #engie1 {
+            flex-direction: column;
+        }
+        
+        #engie2 {
+            flex-direction: column;
+        }
+    
+        #enfant {
+            width: 100%;
+        }
+    
+        #energy {
+            width: 100%;
+        }
+    
+        #me h1 {
+            font-size: 80px;
+        }
+    
+        h3 {
+            font-size: 15px;
+        }
+    
+        #profil {
+            width: 220px;
+            height: 220px;
+        }
+    
+        h6 {
+            margin-top: 7%;
+        }
+    
+        .engie {
+            margin:7%;
+        }
+    }
 
 /* ANIMATIONS */
 @keyframes enter {
