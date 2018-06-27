@@ -17,6 +17,10 @@ html, body {
     margin: 0;
 }
 
+b {
+    color: rgb(12, 12, 12);
+}
+
 /******
 * ME
 *******/

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Damion|Dawning+of+a+New+Day|Pacifico|Satisfy');
 
 *{
     font-family: 'Dancing Script', cursive;
@@ -14,6 +16,12 @@ a button {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+.liens{
+    width: 40px;
+    margin-left: 0%;
+    margin-bottom : 0%;
 }
 
 section {
@@ -41,29 +49,67 @@ article1 {
     justify-content: space-around;
     align-items: flex-start;
 }
-
 h1 {
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    color: rgb(129, 115, 129);
+    font-size: 40px;
+    font-family: 'Satisfy',cursive;
+    font-weight: normal;
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
 }
+
+h3 {
+    width: 90%;
+    font-family:'Tajawal', sans-serif;
+    font-size: 16px;
+    font-weight: 2000;
+    text-align: start;
+    text-align: justify;
+    margin-left: 6%;
+}
+
+h2 {
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+}
+
 
 p {
     color: black;
-    width: 90%;
-    margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    margin-left: 4%;
+    margin-right: 6%;
     text-align: start;
     text-align: justify;
+    margin-bottom: 2%;
+    font-size: 15px;
+    font-family:'Tajawal', sans-serif;
+
 }
 
 img {
-    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left:6%;
+    margin-right: 4%;
     width: 30%;
     height: 10%;
     border: solid 4px white;
 }
 
+b {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(50, 120, 224);
+}
+
+#voyage {
+    margin-left: 5%;
+}
