@@ -31,7 +31,7 @@ Cible : recruteur
 > Cuisine
            
 ## Deuxième page 
-- 3 petits articles pour en savoir plus sur mon parcours > A détailler
+- Un article détaillé concernant mon semestre en université partenaire en Finlande
 
 ## Troisième page
 
